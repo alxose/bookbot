@@ -42,7 +42,7 @@ def main():
     convert_dict = convert_dict_to_list(character_count)
     # 3. Display each character's frequency
     for char_dict in convert_dict:
-         print(f"The '{char_dict['char']} character was found {char_dict['num']} times")
+         print(f"The '{char_dict['char']}' character was found {char_dict['num']} times")
     
     print("--- End report ---")
 
